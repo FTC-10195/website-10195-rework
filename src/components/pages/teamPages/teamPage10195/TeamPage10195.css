@@ -5,6 +5,8 @@
     padding: var(--font-lg);
     border-radius: 10px;
     text-align: center;
+    justify-content: center;  
+    align-items: center;
 }
 
 .team-container > h1 {
@@ -41,6 +43,10 @@
 
 .overview, .history, .outreach, .media {
     margin-bottom: var(--font-lg);
+        padding: 10px;
+        border-radius: 3vw;
+        width: 95%;
+        box-shadow: -10px -10px 50px -15px #db6c47 inset ,10px 10px 50px -15px #362cf9 inset;
 }
 
 .overview h2, .history h2, .outreach h2, .media h2 {
@@ -62,13 +68,14 @@
 }
 
 .history li, .outreach li {
-    font-size: var(--font-base);
+    font-size: 14px;
     color: var(--main-text-color);
     margin-bottom: var(--font-xs);
 }
 
 .history ul ul {
     margin-top: var(--font-xs);
+    font-size: 11px;
 }
 
 .outreach-project {
